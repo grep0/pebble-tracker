@@ -1,18 +1,5 @@
-# Object files
-*.o
-*.ko
+# Ignore build generated files
+build
 
-# Libraries
-*.lib
-*.a
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
+# Ignore pebble builder lock file
+.lock*
